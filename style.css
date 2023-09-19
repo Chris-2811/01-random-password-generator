@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Karla:wght@800&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #1c1c1c;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: #1f2937;
+  padding: 115px 52px;
+  border-radius: 5px;
+  color: white;
+}
+
+.card h1 {
+  font-family: Karla;
+  font-weight: 800;
+}
+
+.card span {
+  color: #4adf86;
+}
+
+.card p {
+  font-family: inter;
+  color: #d5d4d8;
+  margin-block: 10px 51px;
+}
+
+.btn-generate {
+  background-color: #10b981;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: inherit;
+  font-family: inter;
+  cursor: pointer;
+}
+
+.divider {
+  height: 1px;
+  background: #2f3e53;
+  margin-block: 35px;
+}
+
+.buttons-container {
+  display: flex;
+  gap: 24px;
+}
+
+.buttons-container > * {
+  display: flex;
+  background-color: #273549;
+  align-items: center;
+  justify-content: center;
+  border-radius: 6px;
+  width: 211px;
+  height: 39px;
+  color: #10b981;
+  font-family: inter;
+  font-weight: 500;
+  cursor: pointer;
+}
